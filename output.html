@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title> primer ejercicio html5 </title>
+
+    <meta charset="UTF-8">
+
+    <meta name= "author" content="JHONNER DANIEL MORENO LAMUS">
+
+    <meta name= "description" content="este ejercicio es para poner en practica lo aprendido d la guia ">
+
+    <meta name="generator" content="www.aprendoencasa.com, curso practico Html5">
+
+    <meta name="keywords" content="ejercicios,practicas,programacion,html,ect.">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<form name="formulario_datos" id="formulario_datos" action="envio.php" method="get" >
+
+ <fieldset form="formulario_datos" name="grupo_datos_personales" 
+
+oninput="resultado.value=parseInt(numeroa.value)+parseInt(numerob.value)">
+
+ <legend> Datos Personales </legend>
+
+ <label for="nombre" form="formulario_datos">Nombre: </label>
+
+ <input type="text" name="nombre" id="nombre" value="" placeholder="Escriba su nombre..."><br>
+
+ <label for="localidad" form="formulario_datos">Localidad: </label>
+
+ <input type="text" name="localidad" id="localidad" value="" placeholder="Localidad en la que reside..."><br>
+ 
+<label for="Barrio" form="formulario_datos">Barrio: </label>
+
+ <input type="text" name="Barrio" id="Barrio" value="" placeholder="barrio en el que reside..."><br>
+ 
+<label for="Telefonl" form="formulario_datos">Telefono: </label>
+
+ <input type="text" name="Telefono" id="Telefono" value="" placeholder="Telefono o celular..."><br>
+ 
+ 1 <input type="range" id="numeroa" value="50"> 100  <input type="range" id="numerob" value="50"> 100 = <output name="resultado" for="numeroa %%numerob"></output>
+
+ </fieldset>
+
+ <input type="submit" name="enviar" value="Enviar Datos...">
+
+</form>
+
+</body>
+
+</html>
+ 
+
+
+
+    
+ 
+    
+
+    
+
