@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> primer ejercicio html5 </title>
+    <meta charset="UTF-8">
+    <meta name= "author" content="JHONNER DANIEL MORENO LAMUS">
+    <meta name= "description" content="este ejercicio es para poner en practica lo aprendido d la guia ">
+    <meta name="generator" content="www.aprendoencasa.com, curso practico Html5">
+    <meta name="keywords" content="ejercicios,practicas,programacion,html,ect.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Informacion sobre el producto</h2>
+    <form name="formulario_datos" id="formulario_datos" action="envio.php"
+    method="post" >
+    <fieldset form="formulario_datos" name="grupo_datos_personales">
+    <legend> Datos Basicos </legend>
+    Nombre:<br>
+    <input type="tetx" name="Nombre"><br>
+    Description <br>
+            <label for="Description" form="formlario_datos"> </label>
+<select name="" required size="10">
+    
+    <option value="" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="" ></option>
+    <option value="" ></option>
+    <option value="" ></option>
+    <option value="" ></option>
+    <option value="" ></option>
+    <option value="" ></option>
+    </select><br>
+    <label for="Foto">Foto:</label> <input type="text" >
+         <input type="file" value="elegir.."><br>
+         <input type="checkbox"> Añadir contador de visitas<br>
+         </fieldset>
+         <fieldset>
+             <legend>Datos economicos</legend>
+             <label for="Precio"> Precio :</label>
+        <input type="number" name="Precio" min="1" max="100000000000"> € 
+         Impuestos
+            <select>
+                <option></option>
+                <option>4%</option>
+                <option>7%</option>
+                <option>16%</option>
+                <option>25%</option>
+            </select><br>
+            <label>Promocion</label><br>
+        <input type="radio" name="Promocion">Ninguno<br>
+        <input type="radio" name="Promocion">Transporte gratuito<br>
+        <input type="radio" name="Promocion">Descuento 5%<br>
+
+         </fieldset>
+
