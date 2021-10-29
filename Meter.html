@@ -11,11 +11,13 @@
 <body>
     <h1>etiqueta (meter) ejemplo :</h1>
     <p><b>datos personales</b></p>
-    <b>Nombres: </b><input type="text" name="nombres" placeholder="por favor ingrese sus nombres"><br>
-    <b>Apellidos: </b><input type="text" name="apellidos" placeholder="porfavor ingrese sus apellidos"><br>
-    <b>Fecha Nacimiento:</b><input type="datetime" placeholder="ingresa dia/mes/año"><br>
-    <p><b>ETIQUETA METER =</b></p>  <meter value="25" max="100"></meter><meter value="50" max="100"></meter>
-    <meter value="75" max="100">
+    <b>Nombres: </b><input type="text" name="nombres" placeholder="por favor ingrese sus nombres" required><br>
+    <b>Apellidos: </b><input type="text" name="apellidos" placeholder="porfavor ingrese sus apellidos" required><br>
+    <b>Fecha Nacimiento:</b><input type="datetime" placeholder="ingresa dia/mes/año" required><br>
+    <p><b>ETIQUETA METER =</b></p>  <meter value="25" max="100"></meter><meter value="50" max="100" ></meter>
+    <input type="submit" name="enviar datos" value="enviar incompleto">
+    <meter value="100" max="100"></meter>
+  <input type="submit" name="enviar datos" value="enviar datos">
 
 </body>
 
