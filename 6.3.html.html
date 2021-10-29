@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> primer ejercicio html5 </title>
+    <meta charset="UTF-8">
+    <meta name= "author" content="JHONNER DANIEL MORENO LAMUS">
+    <meta name= "description" content="este ejercicio es para poner en practica lo aprendido d la guia ">
+    <meta name="generator" content="www.aprendoencasa.com, curso practico Html5">
+    <meta name="keywords" content="ejercicios,practicas,programacion,html,ect.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Rellena tu CV</h2>
+    <form name="formulario_datos" id="formulario_datos" action="envio.php"
+    method="post" >
+    <fieldset form="formulario_datos" name="grupo_datos_personales">
+    <legend> Datos Personales </legend>
+    Provincia:<br>
+     <input type="text" name="marca" list="marcas" ><br>
+<datalist id="marcas">
+<option label="Bogota">Bogota </option>
+<option label="Pereira">Pereira</option>
+<option label="Cali">Cali</option>
+<option label="Medellin">Medellin</option>
+<option label="Cartagena">Cartagena</option>
+</datalist>
+
+Fecha de nacimiento:<br>
+        <input type="number" name="Fecha de nacimiento" min="1" max="100"> de <input type="text" name="marc" list="marc" > 
+        <datalist id="marc">
+            <option label="Enero">Enero</option>
+            <option label="Febrero">Febrero</option>
+            <option label="Marzo">Marzo</option>
+            <option label="Abril">Abril</option>
+            <option label="Mayo">Mayo</option>
+            <option label="Junio">Junio</option>
+            <option label="Julio">Julio</option>
+            <option label="Agosto">Agosto</option>
+            <option label="Septiembre">Septiembre</option>
+            <option label="Octubre">Octubre</option>
+            <option label="Noviembre">Noviembre</option>
+            <option label="Diciembre">Diciembre</option>
+            </datalist> 
+            de  <input type="number" name="de" min="1" max="100"><br>
+            Temas de interes <br>
+            <label for="Temas de interes" form="formlario_datos"> </label>
+<select name="" required size="4">
+<option value="Administracion de base de datos" selected>Administracion de base de datos</option>
+<option value="Analisis de programas" selected>Analisis de programas</option>
+<option value="Arquitectura" selected>Arquitectura</option>
+<option value="Calidad" selected>Calidad</option>
+<option value="ERP,CRM,Business Intelligence" selected>ERP,CRM,Business Intelligence</option>
+<option value="Mecanica" selected>Mecanica</option>
+<option value="Programacion" selected>Programacion</option>
+</select>
+</fieldset>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+ 
